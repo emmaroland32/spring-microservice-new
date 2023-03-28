@@ -1,0 +1,12 @@
+com/eradiux/productservice/utils/MapToResponseDto.class
+com/eradiux/productservice/model/Product$ProductBuilder.class
+com/eradiux/productservice/model/Product.class
+com/eradiux/productservice/repository/ProductRepository.class
+com/eradiux/productservice/service/ProductServiceImpl.class
+com/eradiux/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/eradiux/productservice/dto/ProductResponse.class
+com/eradiux/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/eradiux/productservice/ProductServiceApplication.class
+com/eradiux/productservice/service/ProductService.class
+com/eradiux/productservice/dto/ProductRequest.class
+com/eradiux/productservice/controller/ProductController.class

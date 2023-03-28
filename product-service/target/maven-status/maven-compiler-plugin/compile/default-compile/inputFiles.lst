@@ -1,0 +1,9 @@
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/model/Product.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/dto/ProductResponse.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/repository/ProductRepository.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/service/ProductService.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/service/ProductServiceImpl.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/dto/ProductRequest.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/controller/ProductController.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/ProductServiceApplication.java
+/Users/siyanda/Repository/training/java/spring-boot-microservice/microservices-new/product-service/src/main/java/com/eradiux/productservice/utils/MapToResponseDto.java

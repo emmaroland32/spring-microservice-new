@@ -1,0 +1,6 @@
+com/eradiuxtech/inventoryservice/controller/InventoryController.class
+com/eradiuxtech/inventoryservice/service/InventoryService.class
+com/eradiuxtech/inventoryservice/repository/InventoryRepository.class
+com/eradiuxtech/inventoryservice/model/Inventory.class
+com/eradiuxtech/inventoryservice/InventoryServiceApplication.class
+com/eradiuxtech/inventoryservice/service/InventoryServiceImpl.class
