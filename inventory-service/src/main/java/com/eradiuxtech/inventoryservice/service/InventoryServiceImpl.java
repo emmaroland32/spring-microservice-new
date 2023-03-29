@@ -1,21 +1,28 @@
 package com.eradiuxtech.inventoryservice.service;
 
 
+import com.eradiuxtech.inventoryservice.dto.InventoryResponse;
 import com.eradiuxtech.inventoryservice.repository.InventoryRepository;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-@NoArgsConstructor
-@AllArgsConstructor
+import java.util.List;
+
+@RequiredArgsConstructor
 @Service
 public class InventoryServiceImpl implements InventoryService{
-    private InventoryRepository inventoryRepository;
+    private final InventoryRepository inventoryRepository;
 
 
     @Transactional(readOnly = true)
-    public boolean isInStock(String skuCode) {
-     return inventoryRepository.findBySkuCode(skuCode).isPresent();
+    public List<InventoryResponse> isInStock(List<String> skuCodes) {
+     return inventoryRepository.findBySkuCodeIn(skuCodes).stream().map(inventory ->
+         InventoryResponse.builder().skuCode(inventory.getSkuCode()).isInStock(
+                 inventory.getQuantity() > 0)
+                 .build()
+     ).toList();
     }
 }
